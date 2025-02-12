@@ -581,7 +581,7 @@ has been encountered twice, that number is available again for subsequent ring c
 Two-digit ring numbers are permitted, but must be preceded by the percent
 `'%'` symbol, such as `C%25CCCCC%25` for cyclohexane. 
 
-Three digit ring numbers must use parentheses, `%(nnn)`, and start with `100`. This is to avoid
+Three digit ring numbers must use parentheses, `%(nnn)`, and start at `100`. This is to avoid
 the ambiguity of, for example `C%123` being interpreted as one ring closure (`%123`) or two (`%12` and `3`).
 When parentheses are used, the ring closure is interpreted with one rnum specification, so cyclohexane
 can be represented as `C%(123)CCCCC%(123)`
